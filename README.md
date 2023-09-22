@@ -15,8 +15,8 @@ This repository is for generate based archives of my flutter project. They're ar
 The included files are:
 
 - Routes => It is about navigation route inside app.
-- Database => It is about sqflite database initialize.
-- Api => It is about use http framework for initialize class api.
+- Database => It is about [sqlite](https://pub.dev/packages/sqflite) database initialize.
+- Api => It is about use [http](https://pub.dev/packages/http) framework for initialize class api.
 
 ## [How do i use it?](#about)
 
