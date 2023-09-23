@@ -7,7 +7,7 @@ if [ ! -d lib/api ]; then
     if [ "$?" -eq "0" ]; then
         echo 'Directory created with success!'
         echo 'API Archive will be create...'
-        sh sh/create-archive-api.sh
+        sh sh/create-file-api.sh
         if [ "$?" -eq "0" ]; then
             echo 'API Archive created with success!'
         else

@@ -7,7 +7,7 @@ if [ ! -d lib/routes ]; then
     if [ "$?" -eq "0" ]; then
         echo 'Directory routes created with success!'
         echo 'AppRoutes Archive will be create...'
-        sh sh/create-archive-routes.sh
+        sh sh/create-file-routes.sh
         if [ "$?" -eq "0" ]; then
             echo 'AppRoutes Archive created with success!'
         else
